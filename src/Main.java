@@ -9,15 +9,15 @@ public class Main {
         double g = 30.33;
         char h = 33;
         boolean k = a >= 120;
-       //System.out.println(h);
+       System.out.println(h);
 
          // Задание 2
         double firstBoxerWeight = 78.2;
         double secondBoxerWeight = 82.7;
         double WeightAllBoxer = firstBoxerWeight + secondBoxerWeight;
-        // System.out.println("Общий вес боксеров " + WeightAllBoxer + " кг");
+        System.out.println("Общий вес боксеров " + WeightAllBoxer + " кг");
         double raznicaWeightBoxer = secondBoxerWeight - firstBoxerWeight;
-        // System.out.println("Разница в весе боксеров " + raznicaWeightBoxer + " кг");
+        System.out.println("Разница в весе боксеров " + raznicaWeightBoxer + " кг");
 
         //Задание 3
 
@@ -26,19 +26,19 @@ public class Main {
         byte plombir = 100;
         byte egg = 70;
         int shaike = banan * 5 + milkGramm * 2 + plombir * 2 + egg * 4;
-        // System.out.println("Общий вес коктейля " + shaike + " грамм");
+        System.out.println("Общий вес коктейля " + shaike + " грамм");
         double shaikeKG = shaike;
-        // System.out.println("Общий вес коктейля " + (shaikeKG / 1000) + " килограмм");
+        System.out.println("Общий вес коктейля " + (shaikeKG / 1000) + " килограмм");
 
         // Задание 4
 
         short weightForCondition = 7;
         int grammDay250 = weightForCondition * 1000 / 250;
-        // System.out.println("при сбросе в день по 250грамм веса понадобиться " + grammDay250 + " дней для сброса " + weightForCondition + " кг");
+        System.out.println("при сбросе в день по 250грамм веса понадобиться " + grammDay250 + " дней для сброса " + weightForCondition + " кг");
         int grammDay500 = weightForCondition * 1000 / 500;
-        // System.out.println("при сбросе в день по 250грамм веса понадобиться " + grammDay500 + " дней для сброса " + weightForCondition + " кг");
+        System.out.println("при сбросе в день по 250грамм веса понадобиться " + grammDay500 + " дней для сброса " + weightForCondition + " кг");
         int midDay = (grammDay250 + grammDay500) / 2;
-        // System.out.println("Среднее количество дней для похудения " + midDay);
+        System.out.println("Среднее количество дней для похудения " + midDay);
 
         // Задание 5
 
